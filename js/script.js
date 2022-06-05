@@ -16,19 +16,27 @@ if (4 == 9) {
 //     console.log('Ok!');
 // }
 
-const num = '50';
-// (num == 50) ? console.log('Ok!') : console.log('Error');
-switch (num) {
-    case '49':
-        console.log('Неверно');
-        break;
-    case '100':
-        console.log('Неверно');
-        break;
-    case '50':
-        console.log('В точку!');
-        break;
-    default:
-        console.log('Не в этот раз!');
-        break;
+// const num = '50';
+// // (num == 50) ? console.log('Ok!') : console.log('Error');
+// switch (num) {
+//     case '49':
+//         console.log('Неверно');
+//         break;
+//     case '100':
+//         console.log('Неверно');
+//         break;
+//     case '50':
+//         console.log('В точку!');
+//         break;
+//     default:
+//         console.log('Не в этот раз!');
+//         break;
+// }
+
+const Name1 = 'Nikita';
+const Name2 = 'Alena';
+if (Name2 == 'Alena') {
+    console.log('Yes!');
+} else {
+    console.log('No!');
 }
