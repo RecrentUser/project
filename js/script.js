@@ -10,8 +10,6 @@ const personalMovieDB = {
     privat: false
 };
 
-// 'Один из последних просмотренных фильмов?'
-// 'На сколько оцените его?'
 console.log(personalMovieDB);
 
 for (let i = 0; i < 2; i++) {
